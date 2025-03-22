@@ -8,7 +8,7 @@ const myPath= 'E:/AL_Shahoriar/New folder/NodeJs/coreModules/coreModules.js';
 fs.readFile('note.txt',(err,data)=>{
     console.log(data.toString());
 })
-console.log(os.homedir())
+
 console.log('Hello')
 
 

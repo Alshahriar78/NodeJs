@@ -1,4 +1,5 @@
-const EventEmitter = require('events');
+const EventEmitter = require('events'); //require events class
+// create a object of class instance;
 const emitter = new EventEmitter();
 
 
@@ -6,7 +7,6 @@ const emitter = new EventEmitter();
 emitter.on('myEvent',(period)=>{
     console.log(`myEvent fired ${period}`);
 });
-
 // emitting an event
 // raise an event
 setTimeout(()=>{
